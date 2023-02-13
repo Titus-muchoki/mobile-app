@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         mFindRestaurantsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Hello World!", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Locate Your Restaurant!", Toast.LENGTH_LONG).show();
 
                 //do something
             }
