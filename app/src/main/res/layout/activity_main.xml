@@ -16,26 +16,25 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
 
+        <TextView
+            android:id="@+id/appNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_x="69dp"
+            android:layout_y="1dp"
+            android:text="MyRestaurants"
+            android:textColor="#FF0000"
+            android:textSize="40sp"
+            android:textStyle="bold" />
     </WebView>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:id="@+id/imageView"
-        android:src="@drawable/myrestaurant"
+        android:src="@drawable/re1"
         android:scaleType="centerCrop" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MyRestaurants"
-        android:layout_marginTop="35dp"
-        android:id="@+id/appNameTextView"
-        android:textColor="#FF0000"
-        android:textSize="40sp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:textStyle="bold" />
 
     <EditText
         android:layout_width="wrap_content"
