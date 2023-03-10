@@ -2,4 +2,13 @@
     <string name="app_name">MyRestaurants</string>
     <string name="find_restaurants">Find Restaurants</string>
     <string name="myrestaurants">MyRestaurants</string>
+    <string-array name="numbers">
+        <item>Africa</item>
+        <item>Europe</item>
+        <item>North America</item>
+        <item>South America</item>
+        <item>Asia</item>
+        <item>Antarctica</item>
+        <item>Oceania</item>
+    </string-array>
 </resources>
