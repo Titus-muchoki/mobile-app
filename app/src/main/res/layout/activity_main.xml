@@ -16,7 +16,21 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
 
-        <TextView
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_x="163dp"
+            android:layout_y="68dp" />
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="181dp"
+            android:layout_y="252dp" />
+    </WebView>
+
+    <TextView
             android:id="@+id/appNameTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -27,7 +41,6 @@
             android:textColor="#FF0000"
             android:textSize="40sp"
             android:textStyle="bold" />
-    </WebView>
 
     <ImageView
         android:layout_width="wrap_content"
